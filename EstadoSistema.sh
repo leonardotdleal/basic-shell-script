@@ -10,7 +10,7 @@ else
 fi
 
 # Constroi nome do arquivo
-FileName="$(date +"%Y%m%d_%T")_EstadoSistema_$usuario.txt"
+FileName="$(date +"%Y%m%d_%T")_EstadoES_$usuario.txt"
 
 totalps=$(ps -A --no-headers | wc -l) 
 echo "Número total de processos ativos no sistema :" $totalps  >> $FileName
