@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Recebe usuário como parametro, verifica se é valido e após isso lista as informações abaixo para usuário passado por parametro ou corrente (caso nao achar o que foi informado)
+# Autor: Leonardo Tadeu Diniz Leal
+
 #Verifica se o usuario passado como argumento eh valido
 nome=`grep -c "^$1:" /etc/passwd`
 

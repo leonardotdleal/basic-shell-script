@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Verifica se programa informado está em processamento
+# Autor: Leonardo Tadeu Diniz Leal
+
 echo "Informe o nome do programa: "
 read processName
 

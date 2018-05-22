@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#Verifica se o dispositivo está em barramento PCI ou USB
+# Verifica se o dispositivo está em barramento PCI ou USB
+# Autor: Leonardo Tadeu Diniz Leal
 
 dispositivo=$1
 pci=`lspci | grep -c $dispositivo`

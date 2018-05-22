@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 
+# Autor: Leonardo Tadeu Diniz Leal
+
 #Lista parametros txt em formato csv
 nome=`grep -c "^$1:" /etc/passwd`
 
